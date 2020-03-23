@@ -7,13 +7,13 @@
     },
     {
         "id":2,
-        "name":"Lê trung lồn",
+        "name":"Lê trung ",
         "tel":"123456789",
         "permission": 2
     },
     {
         "id":3,
-        "name":"Nguyễn Văn lồn",
+        "name":"Nguyễn Văn ",
         "tel":"123456789",
         "permission": 3
     }
