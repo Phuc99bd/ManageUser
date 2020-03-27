@@ -19,23 +19,23 @@ repo-name là tên repo bạn deloy
 
 4- Thêm vào 2 lệnh ở đoạn scripts file package.json
 
-`
+```
 "predeploy": "npm run build",
 "deploy": "gh-pages -d build"
-`
+```
 
 5- Các bạn up source lên như bth thôi
 
-`
+```
     git add . 
     git commit -m "deloy pages"
     git remote add origin git@github.com:{username}/my-app.git
     git push origin master
-`
+```
 Ok sau khi deloy bạn chạy thêm lệnh deloy pages
-`
+```
     npm run deploy
-`
+```
 6- Các bạn thử truy cập vào link homepage mà bảo đã khởi tạo trước đó ^^
 
 Thanks you so muchh viewed
